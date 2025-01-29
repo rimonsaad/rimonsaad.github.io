@@ -3,54 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Basic Webpage</title>
+    <title>Rimon's Website</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
             margin: 0;
             padding: 0;
+            color: #333;
         }
         header {
-            background-color: #4CAF50;
+            background-color: #3b5998;
             color: white;
-            padding: 10px 0;
+            padding: 30px 0;
             text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
         }
         nav {
-            background-color: #333;
+            background-color: #34495e;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
         }
         nav a {
             color: white;
-            padding: 14px 20px;
+            padding: 14px 25px;
             text-decoration: none;
-            display: inline-block;
+            font-size: 1.1rem;
+            transition: background-color 0.3s ease;
         }
         nav a:hover {
-            background-color: #ddd;
-            color: black;
+            background-color: #2c3e50;
+            border-radius: 4px;
         }
         section {
-            padding: 20px;
-            margin: 20px;
+            padding: 40px;
+            margin: 20px auto;
             background-color: white;
             border-radius: 8px;
+            max-width: 1000px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            font-size: 2rem;
+            color: #3b5998;
         }
         footer {
-            background-color: #333;
+            background-color: #3b5998;
             color: white;
             text-align: center;
-            padding: 10px;
+            padding: 15px;
             position: fixed;
             width: 100%;
             bottom: 0;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+        a {
+            color: #3b5998;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Welcome to My Basic Webpage</h1>
+        <h1>Welcome to Rimon's Website</h1>
     </header>
 
     <nav>
@@ -61,21 +88,21 @@
 
     <section id="home">
         <h2>Home</h2>
-        <p>This is a basic webpage created using HTML. Feel free to explore!</p>
+        <p>This is a modernized version of Rimon's website. Explore the different sections to learn more!</p>
     </section>
 
     <section id="about">
         <h2>About</h2>
-        <p>This page was created to showcase a simple HTML structure.</p>
+        <p>This page was designed with a fresh, modern look. I’ve used a new color scheme and a cleaner layout to make it more user-friendly and visually appealing.</p>
     </section>
 
     <section id="contact">
         <h2>Contact</h2>
-        <p>You can reach me at <a href="mailto:email@example.com">email@example.com</a></p>
+        <p>Feel free to reach out to me at <a href="mailto:email@example.com">email@example.com</a></p>
     </section>
 
     <footer>
-        <p>&copy; 2025 My Webpage</p>
+        <p>&copy; 2025 Rimon's Website</p>
     </footer>
 
 </body>
